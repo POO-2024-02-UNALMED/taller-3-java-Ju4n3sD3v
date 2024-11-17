@@ -58,6 +58,14 @@ public class TV {
 		this.control = control;
 	}
 	
+	static public int getNumTV() {
+		return TV.numTV;
+	}
+	
+	static public void setNumTV(int numTv) {
+		TV.numTV = numTv;
+	}
+	
 	public void turnOn() {
 		this.estado = true;
 	}
