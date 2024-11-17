@@ -13,6 +13,7 @@ public class TV {
 	public TV(Marca m, boolean est) {
 		this.setMarca(m);
 		this.estado = est;
+		TV.numTV++;
 	}
 
 	public Marca getMarca() {
